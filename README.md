@@ -16,7 +16,7 @@
 
 在Release文件夹中找到你的系统对应的版本
 
-直接运行可执行文件Equation-Solver即可
+解压后直接运行可执行文件Equation-Solver即可
 
 ### 源码编译方法
 
