@@ -14,9 +14,14 @@
 
 ### 使用方法
 
-在Release文件夹中找到你的系统对应的版本
+先根据你的系统，在下面选择一个版本进行下载
 
-解压后直接运行可执行文件Equation-Solver即可
+- [Linux-64bit](https://github.com/EbolaEmperor/Equation-Solver/raw/master/Release/Linux_64bit.zip)
+- [Windows-32bit](https://github.com/EbolaEmperor/Equation-Solver/raw/master/Release/Windows_64bit.zip)
+
+解压后运行可执行文件Equation-Solver即可
+
+如果使用Linux系统，请给解压后的两个文件授予可执行权限
 
 ### 源码编译方法
 
