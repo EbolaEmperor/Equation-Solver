@@ -55,6 +55,7 @@ double getval(string s,double x)
                 break;
 
             default:
+                if(!isdigit(c)) printf("Format Error!"),exit(0);
                 double v=0.0;int len=0;
                 while(isdigit(c)||c=='.') fln[len++]=c,c=s[p++];
                 fln[len]='\0';p--;
