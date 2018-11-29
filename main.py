@@ -5,6 +5,8 @@ import commands
 def clickMe():
     equation = entry1.get()
     eps = entry2.get()
+    equation = equation.replace('(','\(')
+    equation = equation.replace(')','\)')
     cmd = "./algo "+equation+" "+eps
     rtn, ans = commands.getstatusoutput(cmd)
     tkMessageBox.showinfo('Solved!',ans)
