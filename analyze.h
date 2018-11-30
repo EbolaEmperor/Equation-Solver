@@ -38,6 +38,7 @@ double getval(string s,double x)
     int p=0;s+='#';
     while(p<s.length())
     {
+        double a;
         char c=s[p++],c1,c2;
         switch(c)
         {
@@ -59,6 +60,13 @@ double getval(string s,double x)
             case ')':
                 while(!opt.empty()&&opt.top()!='(') calc();
                 opt.pop();
+                break;
+            
+            case '!':
+                a=num.top();
+                if(fabs(round(a)-a)>1e-9) printf("No Factorial for Decimal!"),exit(0);
+                for(int i=(int)round(a)-1;i>=1;i--) a*=i;
+                num.pop();num.push(a);
                 break;
             
             case 'x':
