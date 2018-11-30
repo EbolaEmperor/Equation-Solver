@@ -25,3 +25,5 @@
 ### 源码编译方法
 
 先编译algo.cpp，然后运行main.py
+
+main.py在Windows下无法运行
