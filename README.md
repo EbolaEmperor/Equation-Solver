@@ -4,7 +4,7 @@
 
 该工具可以得到一些简单方程的近似解
 
-目前可以使用的运算符见operator.md
+目前可以使用的运算符见：[运算符支持表](https://github.com/EbolaEmperor/Equation-Solver/blob/master/operator.md)
 
 解的范围不得超过1e8
 
